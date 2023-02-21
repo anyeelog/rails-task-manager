@@ -13,3 +13,60 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: rgb(231, 245, 250);
+  color: rgb(50, 63, 82);
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.container {
+  margin: 50px 100px 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list_container {
+  border: 2px solid rgb(50, 63, 82);
+  background-color: white;
+  padding: 50px;
+  border-radius: 25px;
+  width: 500px;
+  text-align: center;
+}
+
+ul > li {
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+ul > li:first-child {
+  margin-top: 0;
+}
+
+ul > li > a {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(50, 63, 82);
+  text-decoration: none;
+}
+
+ul > li > a:hover {
+  text-decoration: underline;
+}
+
+a.index_submit {
+  width: 500px;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 15px 50px;
+  text-decoration: none;
+  background-color:rgb(50, 63, 82);
+  color: rgb(231, 245, 250);
+}
